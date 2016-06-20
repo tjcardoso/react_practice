@@ -10,7 +10,7 @@ var Main = React.createClass({
   render: function() {
     return (
       <div>
-      <p>Android Phone  - $199 </p>
+      <p>Android Phone  - $1199 </p>
       <button onClick={this.buy} class="btn">Buy</button>
       <h3>Qty: {this.state.qty} item(s)</h3>
       </div>
